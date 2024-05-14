@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /*CSS Element Selector*/
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: royalblue;
+        }
+         /*CSS ID Selector*/
+        span#a1{
+            display : block;
+            width: 200px;
+            height: 200px;
+            background-color:burlywood;
+        }
+
+        /*CSS Class Selector*/
+        span.a2{
+            display : block;
+            width: 200px;
+            height: 200px;
+            background-color:cadetblue;
+        }
+
+        /*CSS Atrribute Selector*/
+        a[href="https://www.google.com"]{
+            display: block;
+            width:200px;
+            height: 200px;
+            background-color:dimgrey
+        }
+        /*CSS Universal Selector*/
+        *{
+            border : 5px solid black;
+        }
+
+        /*CSS Combinational Selector*/
+        div,span#a1,span.a2,a[href="https://www.google.com"]{
+            display:inline-block;
+        }
+
+        /*CSS Pseudo Element Selector*/
+        h1::after{
+            content:url('https://gifdb.com/images/high/happy-face-emoji-p827c7x967tma2l5.gif')
+        }
+
+        /*CSS Pseudo Class Selector*/
+        div#c1:hover{
+            background-color:indianred;
+        }
+
+        a[href="https://www.google.com"]:hover{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>CSS Element Selector</div>
+    <span id="a1">CSS Id Selector</span>
+    <span class="a2">CSS Class Selector</span>
+    <a href="https://www.google.com">CSS Attribute Selector</a>
+    <h1>CSS Pseudo Element Selector</h1>
+    <div class="c1">CSS Pseudo Class Selector</div>
+
+</body>
+</html>
