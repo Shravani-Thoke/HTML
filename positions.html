@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChildParent Positioning</title>
+    <style>
+
+        .p{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            margin: auto;
+            position: relative;
+        }
+
+        .c{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+        }
+
+        .c1{
+            background-color: green;
+            top:0;
+            left:0;
+        }
+
+        .c2{
+            background-color: yellow;
+            top:0;
+            right: 0;
+        }
+
+        .c3{
+            background-color: blueviolet;
+            bottom: 0;
+            left: 0;
+
+        }
+
+        .c4{
+            background-color: cadetblue;
+            bottom: 0;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="p">
+        <div class = " c c1"></div>
+        <div class = " c c2"></div>
+        <div class = " c c3"></div>
+        <div class = " c c4"></div>
+    </div>
+</body>
+</html>
