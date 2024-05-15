@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flower</title>
+        <style>
+            #p{
+                height: 600px;
+                width: 600px;
+              
+                margin:auto;
+                overflow: hidden;
+                position:relative;
+            }
+
+            .comman{
+                height: 300px;
+                width: 300px;
+                position: absolute;
+                background-color: darkred;
+            }
+            .blue{
+                /*background-color: blue;*/
+                bottom:0px;
+                right: 0px;
+                border-top-right-radius: 300px;
+                border-bottom-left-radius: 300px;
+            }
+
+            .green{
+                /*background-color: green;*/
+                top: 0px;
+                right: 0px;
+                border-top-left-radius: 300px;
+                border-bottom-right-radius: 300px;
+
+            }
+
+            .yellow{
+                /*background-color: yellow;*/
+                bottom: 0px;
+                left:0px;
+                border-top-left-radius: 300px;
+                border-bottom-right-radius: 300px;
+            }
+
+            .purple{
+                /*background-color: purple;*/
+                top: 0px;
+                left: 0px;
+                border-top-right-radius: 300px;
+                border-bottom-left-radius: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "p">
+            <div class = "comman c1 blue"></div>
+            <div class = "comman c2 green"></div>
+            <div class = "comman c3 yellow"></div>
+            <div class = "comman c4 purple"></div>
+        </div>
+    </body>
+    </html>
