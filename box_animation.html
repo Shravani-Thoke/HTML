@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Animation</title>
+    <style>
+        .box1{
+            height:300px;
+            width: 300px;
+            background-color: red;
+            margin: 100px auto;
+            
+            animation-name: abc;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-iteration-count:infinite ;
+        }
+
+        @keyframes abc {
+            0%{
+                transform: rotateZ(0deg);
+            }
+
+            100%{
+                transform: rotateZ(360deg);
+            }
+        }
+
+        .box2{
+            height:100px;
+            width: 100px;
+            background-color: green;
+           
+            animation-name: abc2;
+            animation-duration: 10s;
+            animation-timing-function: ease-out;
+            animation-iteration-count:infinite ;
+            animation-direction: alternate;
+        }
+
+        @keyframes abc2{
+            0%{
+                transform: translateX(0px);
+            }
+
+            25%{
+                transform: translateX(100px);
+                background-color: aqua;
+            }
+
+            50%{
+                transform: translateX(200px);
+                background-color:bisque;
+            }
+
+            75%{
+                transform: translateX(300px);
+                background-color: blueviolet;
+            }
+            100%{
+                transform: translateX(400px);
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class = "box1"></div>
+    <div class = "box2"></div>
+    <div class = "box3"></div>
+</body>
+</html>
