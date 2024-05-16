@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing ball</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .comman{
+            height: 200px;
+            width: 200px;
+            border-radius: 200px;
+            display: inline-block;
+            animation-name: bounce;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        .b1{
+            background-color: red;
+            animation-delay: 0s;
+
+        }
+
+        .b2{
+            background-color: blue;
+            animation-delay: 0.1s;
+        }
+
+        .b3{
+            background-color: green;
+            animation-delay: 0.2s;
+        }
+
+        .b4{
+            background-color: orange;
+            animation-delay: 0.3s;
+        }
+        .b5{
+            background-color: hotpink;
+            animation-delay: 0.4s;
+        }
+        .b6{
+            background-color: blueviolet;
+            animation-delay: 0.5s;
+        }
+        
+        .comman:hover{
+            opacity:0;
+        }
+
+        @keyframes bounce{
+            0%{
+                transform: translateY(0px);
+            }
+
+            100%{
+                transform: translateY(400px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class = "comman b1"></div>
+    <div class = "comman b2"></div>
+    <div class = "comman b3"></div>
+    <div class = "comman b4"></div>
+    <div class = "comman b5"></div>
+    <div class = "comman b6"></div>
+    
+
+</body>
+</html>
