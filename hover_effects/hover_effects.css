@@ -3,10 +3,11 @@
     width: 280px;
     background-image: url('1.jpg');
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
-    margin: 200px auto;
+   display: inline-block;
     background-size: cover;
     position: relative;
     overflow: hidden;
+    margin: 12px;
 }
 
 .overlay{
@@ -24,3 +25,57 @@
 .box:hover .overlay{
     top: 0px;
 }
+
+.overlay2{
+    top : 0px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.box:hover .overlay2{
+   
+    opacity:1;
+}
+
+.a2_1{
+    left: 50px !important;
+}
+
+.a2_2{
+    left: 180px !important;
+}
+
+.box:hover > .overlay2 .a2_1{
+    left: 90px !important;
+}
+
+.box:hover > .overlay2 .a2_2{
+    left: 140px !important;
+}
+
+.a2_1{
+    transition: all 0.1s linear;
+}
+
+.a2_2{
+    transition: all 0.1s linear;
+}
+
+.overlay > a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    background:#fff;
+    text-align: center;
+    position: absolute;
+    top:90px;
+    left:90px;
+    color:#464646;
+}
+
+.banchor{
+    left:140px !important;
+}
+
