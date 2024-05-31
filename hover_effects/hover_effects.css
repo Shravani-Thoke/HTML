@@ -3,10 +3,10 @@
     width: 280px;
     background-image: url('1.jpg');
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
-   display: inline-block;
+    display: inline-block;
     background-size: cover;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
     margin: 12px;
 }
 
@@ -26,6 +26,32 @@
     top: 0px;
 }
 
+.overlay1_2{
+    top: 212px ;
+    left: 0px ;
+}
+
+.box:hover .overlay1_2{
+    top: 0px;
+}
+
+.overlay1_4{
+    top: 0px ;
+    left: 280px ;
+}
+
+.box:hover .overlay1_4{
+    left: 0px;
+}
+
+.overlay1_3{
+    top: 0px ;
+    right: 280px ;
+}
+
+.box:hover .overlay1_3{
+    right: 0px;
+}
 .overlay2{
     top : 0px;
     opacity: 0;
@@ -61,7 +87,7 @@
     transition: all 0.1s linear;
 }
 
-.overlay > a{
+.anchor > a{
     display: inline-block;
     width: 40px;
     height: 40px;
