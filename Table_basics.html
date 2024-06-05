@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Basics</title>
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>10</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <br><br><br>
+
+    <table border="1">
+        <tr>
+            <th>Level1</th>
+            <th>Level2</th>
+            <th>Level3</th>
+            <th>Info</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td rowspan="6">System</td>
+            <td rowspan="4">System Apps</td>
+            <td rowspan="3">SystemEnv</td>
+            <td>App Test</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+           
+            <td>App Memory</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+            
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+           
+            <td>SystemEnv2</td>
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td rowspan="2">System Memory</td>
+            <td rowspan="2">Memory test</td>
+            <td>Memory Func</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+            
+            <td>Apes Test</td>
+            <td>foo</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00am</td>
+                <td rowspan="2">5:00pm</td>
+                <td>Introdction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity:DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Tuesday</td>
+                        <td>8:00 a.m</td>
+                        <td>11:00 a.m</td>
+                        <td rowspan="2">XPath</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">11:00 a.m</td>
+                        <td rowspan="2">2:00 p.m</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">XSL transformation</td>
+                    </tr>
+                    <tr>
+                        <td>2:00 p.m</td>
+                        <td>5:00 p.m</td>
+                    </tr>
+        </tbody>
+    </table>
+</body>
+</html>
