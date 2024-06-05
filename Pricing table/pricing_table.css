@@ -1,0 +1,104 @@
+.mytable{ 
+    width: 959px;
+    margin: 5px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.mytable thead{
+    display: block;
+    
+}
+.mytable tbody{
+    display: block;
+   
+}
+.mytable tfoot{
+    display: block;
+}
+.comman{
+    height:50px;
+    width:160px;
+    color: white;
+    line-height: 50px;
+    text-shadow: 1px,1px,1px,rgba(0,0,0,0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.blue{
+    background-image: -webkit-linear-gradient(top ,#328B99, #2A6E79);
+}
+
+.green{
+    background-image: -webkit-linear-gradient(top ,#5B892A, #476F20);
+}
+
+.yellow{
+    background-image: -webkit-linear-gradient(top ,#D6A60B, #AC8401);
+}
+.orange{
+    background-image: -webkit-linear-gradient(top ,#C6681A, #A65411);
+}
+
+.red{
+    background-image: -webkit-linear-gradient(top ,#9A3C3C, #7D3131);
+}
+
+.comman2{
+    width: 159px;;
+    height: 36px;;
+}
+.tal{
+    text-align:left;
+    padding-left:10px;
+}
+.white{
+    background-color: #F6F6F6;
+}
+
+.grey{
+     background-color: #efefef
+}
+.h60{
+    height: 60px;
+}
+
+.mytable tfoot button{
+    width: 100px;
+    height: 29px;
+    border:none;
+    border-color: black;
+    text-shadow: 1px 1px 1px black;
+    color:#fff;
+    border: 1px solid #093b42
+}
+
+.mytable tbody tr{
+    border-right: white;
+}
+
+.a span{
+    font-size: 2.5em;
+    margin-right: 5px;
+    
+}
+.mytable th,.mytable td{
+    border-right: 1px solid white;
+}
+.xyz{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mytable tfoot{
+    border-bottom: 2px solid black;
+}
+
+.mytable tbody td{
+    border-bottom: 1px solid #ccc;
+}
