@@ -1,0 +1,186 @@
+body{
+    background-image: url(img/bg.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
+
+}
+.headernav{
+    background-color: #333333;
+    height: 50px;
+    width: 1222px;
+    margin: 10px auto;
+}
+.headernav > ul > li > a{
+    display: inline-block;
+    list-style: none;
+    height: 10px;
+    line-height: 10px;
+    padding: 20px;
+    color: #fff;
+    
+    text-decoration: none;
+    
+}
+
+.headernav > ul > li {
+    float: left;
+    list-style: none;
+  }
+
+.active{
+    background-color: #FF6347;
+}
+
+.headernav > ul > li:hover > a{
+    background-color: #FF6347;
+}
+
+.headernav > ul > li:first-child > a{
+    background-image: url(img/ufo.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0px 12px;
+}
+
+.submenu{
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    list-style-type: none;
+    padding-left:0px;
+    display: none;
+}
+
+.submenu1{
+    position: absolute;
+    top: 60px;
+    left: 250px;
+   
+}
+
+.menu > li{
+    position: relative;
+}
+
+.submenu > li > a{
+    display: block;
+    height: 60px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    line-height: 60px;
+    padding-left: 20px;
+   
+}
+
+.submenu a:hover {
+    background-color: #FF6347;
+    color: #fff;
+}
+
+.submenu1 a:hover{
+    background-color: #FF6347;
+    color: #fff;
+}
+
+.submenu .fa-chevron-left{
+    float: right;
+}
+
+.menu li:hover > .submenu{
+    display: block;
+}
+
+.menu li:hover > a {
+    background: #ff6347;
+    color: #fff;
+}
+
+.submenu2{
+    position: absolute;
+    top: 180px;
+    left: -250px;
+}
+
+.submenu_mega_menu{
+    height: 310px;
+    width: 1222px;
+   
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    left: -368px;
+    display: none;
+    color: #555;
+}
+.megamenu_table{
+    height: 100%;
+    width: 100%;
+}
+
+.megamenu_table ul{
+    list-style: none;
+}
+.megamenu_table a:hover{
+    background-color: #FF6347;
+}
+.megamenu_table a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 0px;
+}
+.pl0{
+    padding-left: 0px !important;
+}
+
+td{
+    width: 16.6%;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.megamenu_table a:hover{
+    background: transparent !important;
+    color:#ff6347 !important;
+}
+.megamenu_table a{
+    text-decoration: none;
+    display: block;
+    padding: 10px; /* TRBL */
+    color:#555;
+    padding-left: 0px;
+}
+
+.images_submenu{
+    height: 480px;
+    width: 600px;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: -200px;
+}
+
+.images_submenu > ul{
+    height: 200px;
+    border-bottom:1px solid #555;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.images_submenu > ul > li{
+    
+    height: 100%;
+    width: 24.7%;
+    float: left;
+    
+}
+
+.images_submenu a{
+    background:transparent !important;
+}
+
